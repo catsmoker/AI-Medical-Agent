@@ -18,7 +18,7 @@ import okhttp3.Response;
 
 public class GeminiApiClient {
 
-    private static final String API_KEY = "AIzaSyD5oVNy3kvVjo9oGIkn9xlAf8SFs2FcmlE";
+    private static final String API_KEY = "your api";
     private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + API_KEY;
     private static final MediaType JSON = MediaType.get("application/json; charset=utf-8");
     private static final OkHttpClient client = new OkHttpClient();
