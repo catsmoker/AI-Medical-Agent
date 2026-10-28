@@ -1,0 +1,17 @@
+# Android
+*.gradle
+build/
+.gradlewrapper/
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local config (secrets — DO NOT COMMIT)
+local.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+.gradle/
+
+# OS
+.DS_Store

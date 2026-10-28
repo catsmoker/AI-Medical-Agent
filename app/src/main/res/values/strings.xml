@@ -1,3 +1,70 @@
 <resources>
-    <string name="app_name">AIMedicalAgent</string>
+    <!-- App -->
+    <string name="app_name">AI Medical Agent</string>
+
+    <!-- Onboarding -->
+    <string name="welcome">Welcome to AI Medical Agent</string>
+    <string name="choose_role">Choose your role</string>
+    <string name="role_patient">Patient</string>
+    <string name="role_doctor">Doctor</string>
+    <string name="consent_notice">By continuing, you consent to sending your symptom description (and optional photo) to an AI for health information. This is not a medical diagnosis.</string>
+
+    <!-- Chat -->
+    <string name="hint_describe_symptoms">Describe your symptoms (text, photo, or voice)</string>
+    <string name="ai_assessment">AI Assessment</string>
+    <string name="possible_conditions">Possible conditions</string>
+    <string name="self_care">Self-care steps</string>
+    <string name="otc_suggestions">Over-the-counter suggestions</string>
+    <string name="otc_disclaimer">Generic names only — no doses. Read the leaflet and check allergies, pregnancy, and interactions.</string>
+    <string name="red_flags">Red flags</string>
+    <string name="follow_up_questions">Follow-up questions</string>
+    <string name="disclaimer_short">Not a medical diagnosis. Consult a licensed professional.</string>
+    <string name="emergency_detected">Possible emergency detected</string>
+    <string name="emergency_subtitle">Call emergency services immediately. Product suggestions are disabled.</string>
+    <string name="call_emergency">Call emergency</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="subscription">Subscription</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="delete_my_data">Delete all my data</string>
+    <string name="sign_out">Sign out</string>
+
+    <!-- Health profile -->
+    <string name="health_profile">Health profile</string>
+    <string name="health_profile_subtitle">Optional context to help the AI give safer, more relevant information.</string>
+    <string name="age">Age</string>
+    <string name="sex">Sex</string>
+    <string name="allergies">Allergies (comma-separated)</string>
+    <string name="pregnant">Pregnant</string>
+    <string name="chronic_conditions">Chronic conditions (comma-separated)</string>
+    <string name="current_medications">Current medications (comma-separated)</string>
+    <string name="save">Save</string>
+
+    <!-- Upgrade -->
+    <string name="upgrade">Upgrade</string>
+    <string name="upgrade_subtitle">Get a real licensed doctor to review your case.</string>
+    <string name="plan_pay_per_review">Pay per doctor review</string>
+    <string name="plan_pay_per_review_desc">One-time review of a single case.</string>
+    <string name="plan_pay_per_review_price">$4.99</string>
+    <string name="plan_monthly">Monthly subscription</string>
+    <string name="plan_monthly_desc">Every question is automatically sent to a doctor.</string>
+    <string name="plan_monthly_price">$19.99/month</string>
+    <string name="restore_purchases">Restore purchases</string>
+
+    <!-- Doctor -->
+    <string name="doctor_queue">Doctor case queue</string>
+    <string name="no_cases">No cases waiting.</string>
+    <string name="case_detail">Case detail</string>
+    <string name="ai_summary">AI summary</string>
+    <string name="approve">Approve</string>
+    <string name="correct">Correct</string>
+    <string name="ask_more_info">Ask for more info</string>
+
+    <!-- Misc -->
+    <string name="gemini_api_key_placeholder">AIzaPlaceholder_TODO_replace_me</string>
 </resources>

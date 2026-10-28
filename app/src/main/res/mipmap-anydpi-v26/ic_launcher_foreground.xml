@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon foreground layer: medical shield with heartbeat pulse line. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108"
+    android:tint="#FFFFFF">
+    <!-- Outer shield shape -->
+    <path
+        android:pathData="M54,8 L100,42 L100,90 Q100,100 90,100 L18,100 Q8,100 8,90 L8,42 L54,8 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:strokeColor="#FFFFFF" />
+    <!-- Heartbeat / pulse line inside shield -->
+    <group>
+        <clip-path
+            android:pathData="M26,26 L82,26 L82,82 L26,82 Z" />
+        <path
+            android:pathData="M32,62 L42,62 L44,48 L52,48 L54,72 L66,72 L66,52 L74,52 L74,62 L86,62"
+            android:strokeWidth="5"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="@android:color/transparent" />
+    </group>
+    <!-- Small medical cross at top of shield -->
+    <path
+        android:pathData="M54,18 V12 M48,15 H60"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+</vector>
